@@ -2,9 +2,9 @@
   "eyebrow": "What We're Pouring",
   "heading": "Drinks",
   "items": [
-    { "label": "Shot & a Beer",    "image": "assets/brunos-shot-combo\.webp", "alt": "Shot and beer combo at Bruno's" },
-    { "label": "Craft Cocktails",  "image": "assets/brunos-drinks\.webp",     "alt": "Cocktails at Bruno's — martini and espresso" },
-    { "label": "Texas Margaritas", "image": "assets/brunos-drinks1\.webp",    "alt": "Texas margarita at Bruno's" },
-    { "label": "Ice Cold Buckets", "image": "assets/brunos-bucket\.webp",     "alt": "Corona Familiar ice bucket at Bruno's" }
+    { "label": "Shot & a Beer",    "image": "assets/brunos-shot-combo.webp", "alt": "Shot and beer combo at Bruno's" },
+    { "label": "Craft Cocktails",  "image": "assets/brunos-drinks.webp",     "alt": "Cocktails at Bruno's — martini and espresso" },
+    { "label": "Texas Margaritas", "image": "assets/brunos-drinks1.webp",    "alt": "Texas margarita at Bruno's" },
+    { "label": "Ice Cold Buckets", "image": "assets/brunos-bucket.webp",     "alt": "Corona Familiar ice bucket at Bruno's" }
   ]
 }
