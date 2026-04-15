@@ -3,7 +3,7 @@ backend:
   repo: ryansalts/brunos-dive
   branch: main
   app_id: Ov23liXV8XFTCbpDob2W
-  base_url: https://brunos-dive-oauth.workers.dev
+  base_url: https://brunos-dive-oauth.ryansalts.workers.dev
 
 media_folder: "assets"
 public_folder: "assets"
