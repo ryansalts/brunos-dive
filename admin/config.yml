@@ -1,0 +1,110 @@
+backend:
+  name: github
+  repo: USERNAME/REPONAME
+  branch: main
+  app_id: PLACEHOLDER
+  base_url: https://PLACEHOLDER.workers.dev
+
+media_folder: "assets"
+public_folder: "assets"
+
+collections:
+
+  - name: "hours"
+    label: "🕐 Hours"
+    files:
+      - label: "Hours"
+        name: "hours"
+        file: "_data/hours.json"
+        fields:
+          - { label: "Monday",    name: monday,    widget: string }
+          - { label: "Tuesday",   name: tuesday,   widget: string }
+          - { label: "Wednesday", name: wednesday, widget: string }
+          - { label: "Thursday",  name: thursday,  widget: string }
+          - { label: "Friday",    name: friday,    widget: string }
+          - { label: "Saturday",  name: saturday,  widget: string }
+          - { label: "Sunday",    name: sunday,    widget: string }
+
+  - name: "contact"
+    label: "📞 Contact"
+    files:
+      - label: "Contact Info"
+        name: "contact"
+        file: "_data/contact.json"
+        fields:
+          - { label: "Phone",            name: phone,            widget: string }
+          - { label: "Email",            name: email,            widget: string }
+          - { label: "Address Line 1",   name: address_line1,    widget: string }
+          - { label: "Address Line 2",   name: address_line2,    widget: string }
+          - { label: "Address (short)",  name: address_short,    widget: string, hint: "Used in footer — e.g. 1004 South Alamo St · San Antonio, TX 78210" }
+          - { label: "Google Maps Embed URL", name: maps_embed_url, widget: string }
+
+  - name: "social"
+    label: "🔗 Social Links"
+    files:
+      - label: "Social"
+        name: "social"
+        file: "_data/social.json"
+        fields:
+          - { label: "Instagram URL", name: instagram, widget: string }
+          - { label: "Facebook URL",  name: facebook,  widget: string }
+
+  - name: "hero"
+    label: "🏠 Hero"
+    files:
+      - label: "Hero Content"
+        name: "hero"
+        file: "_data/hero.json"
+        fields:
+          - { label: "Eyebrow Text", name: eyebrow, widget: string }
+          - { label: "Sub Text",     name: sub,     widget: string }
+          - label: "Neon Tags"
+            name: neon_tags
+            widget: list
+            fields:
+              - { label: "Label", name: label, widget: string }
+              - { label: "Color", name: color, widget: select, options: ["red", "green"] }
+          - { label: "Primary CTA Button",   name: cta_primary, widget: string }
+          - { label: "Ghost CTA Button",     name: cta_ghost,   widget: string }
+
+  - name: "about"
+    label: "📖 About"
+    files:
+      - label: "About"
+        name: "about"
+        file: "_data/about.json"
+        fields:
+          - { label: "Eyebrow",    name: eyebrow,  widget: string }
+          - { label: "Heading",    name: heading,  widget: string, hint: "Use <br/> for line break" }
+          - { label: "Paragraph 1", name: body1,   widget: text }
+          - { label: "Paragraph 2", name: body2,   widget: text }
+          - { label: "Tagline",    name: tagline,  widget: text }
+
+  - name: "drinks"
+    label: "🍺 Drinks Strip"
+    files:
+      - label: "Drinks"
+        name: "drinks"
+        file: "_data/drinks.json"
+        fields:
+          - { label: "Eyebrow", name: eyebrow, widget: string }
+          - { label: "Heading", name: heading, widget: string }
+          - label: "Items"
+            name: items
+            widget: list
+            fields:
+              - { label: "Label",     name: label, widget: string }
+              - { label: "Image",     name: image, widget: image }
+              - { label: "Alt Text",  name: alt,   widget: string }
+
+  - name: "tribute"
+    label: "🏅 Tribute Section"
+    files:
+      - label: "Tribute"
+        name: "tribute"
+        file: "_data/tribute.json"
+        fields:
+          - { label: "Eyebrow", name: eyebrow, widget: string }
+          - { label: "Heading", name: heading, widget: string }
+          - { label: "Body",    name: body,    widget: text }
+          - { label: "Quote",   name: quote,   widget: string }

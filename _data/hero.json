@@ -1,0 +1,12 @@
+{
+  "eyebrow":    "Southtown · San Antonio · 21 & Over",
+  "sub":        "1004 S. Alamo Street · The Arts District",
+  "neon_tags": [
+    { "label": "Well Drinks",  "color": "red"   },
+    { "label": "Ice Cold Beer","color": "green" },
+    { "label": "Bar Snacks",   "color": "red"   },
+    { "label": "IPA on Tap",   "color": "green" }
+  ],
+  "cta_primary": "Belly Up to the Bar",
+  "cta_ghost":   "Hours & Info"
+}
