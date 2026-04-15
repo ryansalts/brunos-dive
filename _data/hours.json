@@ -1,9 +1,9 @@
 {
-  "monday":    "4:00 pm – 2:00 am",
-  "tuesday":   "4:00 pm – 2:00 am",
-  "wednesday": "4:00 pm – 2:00 am",
-  "thursday":  "4:00 pm – 2:00 am",
-  "friday":    "4:00 pm – 2:00 am",
-  "saturday":  "12:00 pm – 2:00 am",
-  "sunday":    "12:00 pm – 2:00 am"
+  "monday": "12:00 pm – 2:00 am",
+  "tuesday": "12:00 pm – 2:00 am",
+  "wednesday": "12:00 pm – 2:00 am",
+  "thursday": "12:00 pm – 2:00 am",
+  "friday": "12:00 pm – 2:00 am",
+  "saturday": "12:00 pm – 2:00 am",
+  "sunday": "12:00 pm – 2:00 am"
 }
