@@ -743,3 +743,28 @@ button { background: none; border: none; cursor: pointer; font: inherit; }
   color: var(--ash);
   letter-spacing: 0.07em;
 }
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.footer-social a {
+  display: flex;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+.footer-social a:hover { opacity: 1; }
+.footer-social svg {
+  width: 22px;
+  height: 22px;
+  fill: var(--cream-dim);
+}
+.footer-legal {
+  font-family: var(--font-type);
+  font-size: 0.75rem;
+  color: var(--ash);
+  letter-spacing: 0.07em;
+  text-align: right;
+  align-self: flex-end;
+}
